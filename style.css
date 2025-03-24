@@ -573,6 +573,7 @@ strong{
     .social-section{
       width: 100%;
       display: flex;
+      margin-bottom: 50px;
     }
     .video-conatiner{
       width: 850px;
@@ -593,6 +594,7 @@ strong{
       display: inline-block;
       width: 100%; 
       max-width: 600px; 
+      background-color: rgba(185, 185, 185, 0.568)
   }
 
   .banner-image {
@@ -695,6 +697,88 @@ strong{
   height: 14px;
   width: 14px;
   margin-right: 1px;
+}
+
+.family-owned-container{
+  background-color: rgb(229, 231, 235);
+  padding: 0 0px 50px 30px;
+
+}
+
+.cont-detail-para{
+  display: flex;
+}
+
+.img-section {
+  margin-right: 30px;
+  width: 600px;
+  height: 600px;
+  clip-path: polygon(55% 0%, 100% 25%, 100% 75%, 55% 100%, 10% 75%, 10% 25%);
+
+  
+}
+
+.img-section img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+}
+
+.family-owned-desc-section{
+  width: 700px;
+}
+
+.family-owned-title{
+  font-family: 'Oswald', sans-serif;
+  color: #F2B835;
+  font-size: 55px;
+  font-weight: 500;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 55px;
+  padding: 75px 95px 0 0;
+  letter-spacing: -2px;
+  
+}
+
+.family-owned-detail{
+
+  padding: 20px 80px 0 0;
+  line-height: 19px;
+ 
+}
+
+.family-owned-detail p{
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+ 
+  color: #1F1F1D;
+  
+}
+
+.beekeeper-solution-button {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 310px; 
+  height: 40px; 
+  background-color: #F2B835;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  border-radius: 10px; 
+  text-decoration: none; 
+}
+
+.btn:hover {
+  background-color: black; /* Black background on hover */
+  color: white; /* White text on hover */
 }
 
 /* Responsive code start */
@@ -854,7 +938,7 @@ strong{
       width: 40px;
       gap: 30px;
       border-radius: 10px;
-      background-color: rgb(242, 184, 53);;
+      background-color: rgb(242, 184, 53);
     }
     .nav-button i{
 
