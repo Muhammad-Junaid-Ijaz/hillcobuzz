@@ -817,7 +817,7 @@ strong{
   
   display: flex;
   white-space: nowrap;
-  animation: scroll 50s linear infinite;
+  animation: scroll 70s linear infinite;
 
 }
 
@@ -882,7 +882,7 @@ strong{
 .feedback-person-name{
   margin-bottom: 20px;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* Responsive code start */
