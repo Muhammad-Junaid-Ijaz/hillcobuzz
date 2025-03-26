@@ -885,6 +885,67 @@ strong{
   font-weight: 400;
 }
 
+
+/* info section conatiner style....................................................... */
+.info-section-container{
+  background-color: rgb(229, 231, 235);
+  height: auto;
+  padding: 35px 0 80px 0;
+  border-bottom: 8px solid #F2B835;
+}
+.section-logo-img{
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  display: flex
+}
+
+.section-logo-img img{
+  height: auto;
+  width: 20rem;
+}
+
+.four-column-info{
+
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.contact-column{
+  height: 100px;
+  width: 290px;
+}
+
+.contact-column h3{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1F1F1D;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.contact-column-data{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+
+  color: #1F1F1D;
+ 
+}
+
+.contact-column-data a{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #1F1F1D;
+ 
+
+}
+
+
+
+
 /* Responsive code start */
 
 
